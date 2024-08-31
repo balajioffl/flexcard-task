@@ -1,0 +1,99 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.card-header img{
+    width: 100%;
+}
+
+.card{
+    width: 28%;
+    box-shadow: 1px 3px 8px;
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-body{
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.tag-purple{
+    background-color: blue;
+    color: white;
+    text-transform:uppercase;
+    padding: 3px 14px;
+    border-radius: 20px;
+    }
+
+.tag-pink{
+    background-color: rgb(255, 0, 242);
+    color: white;
+    text-transform:uppercase;
+    padding: 3px 14px;
+    border-radius: 20px;
+}
+
+.user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.user{
+    display: flex;
+    gap: 14px;
+}
+
+.user-info{
+    margin-top: 10px;
+}
+
+.user-info h5{
+    margin: 0px;
+}
+
+.social-icons{
+    margin-top: 20px;
+}
+
+.social-icons a{
+    color: black; 
+    padding: 10px; 
+    font-size: 20px; 
+}
+
+.social-icons span{
+    font-weight: bold;
+}
+
+button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+
+@media (max-width:1023px){
+    .card{
+        width: 41%;
+    }
+}
+
+@media (max-width:767px){
+    .card{
+        width:100%;
+    }
+}
+
